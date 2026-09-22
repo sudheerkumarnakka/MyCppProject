@@ -2,8 +2,12 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, C++!" << endl;
-    cout << "Hello, C++!" << endl;
+    int firstNumber, secondNumber;
+
+    cout << "Enter two numbers: ";
+    cin >> firstNumber >> secondNumber;
+    cout << "The sum is: " << firstNumber + secondNumber << endl;
+    cout << "The sum is: " << firstNumber + secondNumber << endl;
 
     return 0;
 }
